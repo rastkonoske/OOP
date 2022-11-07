@@ -10,7 +10,7 @@ public class Zadatak1 {
         //Da bi se upisivalo sa tastature potrebno je napraviti Scanner
         Scanner scanner = new Scanner(System.in);
         System.out.println("Molim vas unesite prvi decimalni broj: ");
-        // sad dodeljujemo vrednostzs a sa tastature
+        // sad dodeljujemo vrednos a sa tastature
         a = scanner.nextFloat();
         //sad tako isto za b...
 
