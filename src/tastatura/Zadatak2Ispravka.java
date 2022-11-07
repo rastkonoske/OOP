@@ -11,13 +11,13 @@ public class Zadatak2Ispravka {
         System.out.println("Molimo unesite prezime studenta");
         String prezime = scanner.next();
         System.out.println("Molimo unesite broj indeksa studenta");
-        int brind = scanner.nextInt();
+        int brInd = scanner.nextInt();
         System.out.println("Molimo unesite prosek ocena studenta");
         float prosek = scanner.nextFloat();
 
         System.out.println("Ime: " + ime);
         System.out.println("Prezime: " + prezime);
-        System.out.println("Br. ind: " + brind);
+        System.out.println("Br. ind: " + brInd);
         System.out.println("prosek: " + prosek);
     }
 }
