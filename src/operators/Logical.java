@@ -1,7 +1,6 @@
 package operators;
 
 import java.time.LocalDate;
-import java.time.Period;
 import java.util.Scanner;
 
 public class Logical {
@@ -19,8 +18,6 @@ public class Logical {
         System.out.println("Molimo unesite dan rodjenja");
         int danRodj = scanner.nextInt();
         int razlikaGod = godinaDanas - godinaRodj;
-
-
 
         if (razlikaGod >18 || (razlikaGod == 18 && mesecDanas > mesecRodj) || (razlikaGod == 18 && mesecDanas == mesecRodj && danDanas>=danRodj)) {
             System.out.println("Imate preko 18 godina. Punoletni ste!");
