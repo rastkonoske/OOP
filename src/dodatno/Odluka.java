@@ -18,16 +18,16 @@ public class Odluka {
             int vozilaIma = scan.nextInt();
             if(ljudiSleduje/2 <= ljudiIma){
                 if (vozilaSleduje/2<=vozilaIma){
-                    System.out.println("Tezisni zadatak " + i + "cete danas ce biti periodicni pregled motornih vozila.");
+                    System.out.println("Tezisni zadatak " + i + ".cete danas ce biti periodicni pregled motornih vozila.");
                 } else {
-                    System.out.println("Tezisni zadatak " + i + "cete danas ce biti gadjanje iz pesadijskog naoruzanja.");
+                    System.out.println("Tezisni zadatak " + i + ".cete danas ce biti gadjanje iz pesadijskog naoruzanja.");
                 }
             } else {
                 if(vozilaSleduje/2<=vozilaIma){
-                    System.out.println("Tezisni zadatak " + i + "cete danas ce biti takticka obuka.");
+                    System.out.println("Tezisni zadatak " + i + ".cete danas ce biti takticka obuka.");
                 }
                 else {
-                    System.out.println("Tezisni zadatak " + i + "cete danas ce biti uredjenje kasarnskog kruga.");
+                    System.out.println("Tezisni zadatak " + i + ".cete danas ce biti uredjenje kasarnskog kruga.");
                 }
             }
         }
