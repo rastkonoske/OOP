@@ -6,7 +6,7 @@ public class Zadatak5 {
     public static void main(String[] args) {
 
 
-        int nizBrojeva[] = {3, 4, 4, 32, 54, 26, 75, 88, 93, 19};
+        int nizBrojeva[] = {3, 4, 4, 32, 54, 26, 75, 88, 4, 19};
         System.out.println("Unesite broj koji zelite da prebrojite");
 
         int broj = brojac(nizBrojeva);
