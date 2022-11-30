@@ -31,3 +31,10 @@ public class Zadatak1a {
     }
 }
 
+/* da bi se niz pretvorio u listu ovoljno je uraditi sledece:
+  formirati niz:
+  String[] niz = {"jedan", "dva", "tri"};
+  Prebaciti niz u listu:
+  List lista = Arrays.asList(niz);
+ */
+
