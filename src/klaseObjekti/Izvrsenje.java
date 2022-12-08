@@ -25,11 +25,9 @@ public class Izvrsenje {
 
 
         Banka ListaRacuna = new Banka ();;
-        ListaRacuna.getBankaRacun();
-        System.out.println(ListaRacuna.getBankaRacun());
         ListaRacuna.dodajRacun(PerinRacun);
         ListaRacuna.dodajRacun(MarkovRacun);
-        System.out.println(ListaRacuna.getRacuniBanka());
+       ListaRacuna.ispis();
 
         };
 
