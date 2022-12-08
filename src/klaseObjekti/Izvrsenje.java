@@ -27,7 +27,7 @@ public class Izvrsenje {
         Banka ListaRacuna = new Banka ();;
         ListaRacuna.dodajRacun(PerinRacun);
         ListaRacuna.dodajRacun(MarkovRacun);
-        ListaRacuna.ispis();
+        ListaRacuna.ispisRacuna();
 
         };
 

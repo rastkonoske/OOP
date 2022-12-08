@@ -20,7 +20,7 @@ public class Banka {
         return RacuniBanka;
     }
 
-    public void ispis()
+    public void ispisRacuna()
     {
         for(Racun racun : RacuniBanka)
         {
