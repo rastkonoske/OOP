@@ -24,7 +24,7 @@ public class Banka {
     {
         for(Racun racun : RacuniBanka)
         {
-            System.out.println(racun.getBrojRacuna() + " " + racun.getStanje());
+            System.out.println(racun.getVlasnikRacuna().getIme() +" " + racun.getBrojRacuna() + " " + racun.getStanje());
         }
     }
 

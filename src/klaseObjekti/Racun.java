@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Racun {
 
     private long brojRacuna;
-    private double Stanje = 0;
-    private Osoba VlasnikRacuna = new Osoba("ime", "prezime", 1, 2);
+    private double Stanje;
+    private Osoba VlasnikRacuna;
 
     public Racun (long brojRacuna, Osoba VlasnikRacuna) {
         this.brojRacuna = brojRacuna;
@@ -41,7 +41,7 @@ public class Racun {
     public double oduzmiNovac (double rashod) {
         Stanje = Stanje - rashod;
         if (Stanje< -10000) {
-            Stanje = -10000;
+            Stanje = Stanje + rashod;
         }
         return Stanje;
     }
