@@ -4,21 +4,21 @@ import java.util.Scanner;
 
 public class Racun {
 
-    private long brojRacuna;
+    private String brojRacuna;
     private double Stanje;
     private Osoba VlasnikRacuna;
 
-    public Racun (long brojRacuna, Osoba VlasnikRacuna) {
+    public Racun (String brojRacuna, Osoba VlasnikRacuna) {
         this.brojRacuna = brojRacuna;
         this.Stanje = 0;
         this.VlasnikRacuna = VlasnikRacuna;
     }
 
-    public void setBrojRacuna(long brojRacuna) {
+    public void setBrojRacuna(String brojRacuna) {
         this.brojRacuna = brojRacuna;
     }
 
-    public long getBrojRacuna() {
+    public String getBrojRacuna() {
         return brojRacuna;
     }
 
