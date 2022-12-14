@@ -28,14 +28,14 @@ public class Izvrsenje {
 
         Prodavnica.najuspesnijaProdavnica(nizProdavnica).popust(20);
 
-        ispisSaPopustom(niz2);
+      //  ispisSaPopustom(niz2, nizProdavnica);
 
     }
 
-    public static void ispisSaPopustom (Kafa[] nizKafa) {
+    /*   public static void ispisSaPopustom (Kafa[] nizKafa, Prodavnica[] nizProdavnica) {
         for (Kafa kafa: nizKafa) {
             System.out.println("Ime kafe je: " + kafa.getNaziv() + "Cena kafe je: " + kafa.getCena());
         }
-    }
+    }*/
 
 }

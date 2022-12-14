@@ -58,6 +58,7 @@ public class Prodavnica {
 
          for (Kafa kafa : vrsta) {
              kafa.obracunajPopust(snizenje);
+             System.out.println(kafa);
          }
     }
 
