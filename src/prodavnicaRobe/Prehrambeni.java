@@ -23,7 +23,7 @@ public class Prehrambeni extends Proizvod{
     void poruci(int kolicina) {
 
         if (datumIsteka.isBefore(LocalDate.now())) {
-            System.out.println("Datumn istekao!!!");
+            System.out.println("Datum istekao!!!");
         } else {
             double racun = getCena() * kolicina;
             System.out.println("Vas racun je: " + racun);
