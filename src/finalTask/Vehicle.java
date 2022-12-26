@@ -27,12 +27,16 @@ abstract class Vehicle {
 
         System.out.println("Please, type the type of the engine (enter 'electric', 'diesel' or 'gasoline')");
         engineType = scan.next();
+
+        while (!engineType.equals("electric") && !engineType.equals("diesel") && !engineType.equals("gasoline")) {
+            System.out.println("Please, enter the valid type of engine - 'electric', 'diesel' or 'gasoline'");
+            engineType = scan.next();
+        }
         this.engineType = engineType;
 
         System.out.println("Please, type the number of years passed since vehicle production");
         yearsOld = scan.nextInt();
         this.yearsOld = yearsOld;
-
     }
 
     public Scanner getScan() {
