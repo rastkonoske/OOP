@@ -4,8 +4,8 @@ public class Car extends Vehicle{
 
     private int numberDoors;
 
-    public Car(String carBrand, int engineSize, int horsePowers, String engineType, int yearsOld, int numberDoors) {
-        super(carBrand, engineSize, horsePowers, engineType, yearsOld);
+    public Car() {
+        super();
         System.out.println("Please, type the number of doors");
         numberDoors = scan.nextInt();
         this.numberDoors = numberDoors;

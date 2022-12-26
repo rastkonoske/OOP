@@ -3,8 +3,8 @@ package finalTask;
 public class Truck extends Vehicle{
     private int trailerNumber;
 
-    public Truck(String carBrand, int engineSize, int horsePowers, String engineType, int yearsOld, int trailerNumber) {
-        super(carBrand, engineSize, horsePowers, engineType, yearsOld);
+    public Truck() {
+        super();
         System.out.println("Please, type the number of trails");
         trailerNumber = scan.nextInt();
         this.trailerNumber = trailerNumber;

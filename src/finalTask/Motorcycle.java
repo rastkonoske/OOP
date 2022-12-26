@@ -2,8 +2,8 @@ package finalTask;
 
 public class Motorcycle extends Vehicle{
 
-    public Motorcycle(String carBrand, int engineSize, int horsePowers, String engineType, int yearsOld) {
-        super(carBrand, engineSize, horsePowers, engineType, yearsOld);
+    public Motorcycle() {
+        super();
     }
 
     @Override

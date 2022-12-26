@@ -12,7 +12,7 @@ abstract class Vehicle {
     public double amountRegistration;
     private int yearsOld;
 
-    public Vehicle (String carBrand, int engineSize, int horsePowers, String engineType, int yearsOld) {
+    public Vehicle () {
         System.out.println("Please, type the vehicle Brand or Model");
         carBrand = scan.next();
         this.carBrand = carBrand;

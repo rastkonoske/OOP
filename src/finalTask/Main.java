@@ -3,9 +3,9 @@ package finalTask;
 public class Main {
     public static void main(String[] args) {
 
-        Car Punto = new Car("", 1,1,"",1,1);
-        Motorcycle Suzuki = new Motorcycle("", 1, 1, "", 1);
-        Truck FAP = new Truck("", 1, 1, "", 1, 1);
+        Car Punto = new Car();
+        Motorcycle Suzuki = new Motorcycle();
+        Truck FAP = new Truck();
         Vehicle[] array= {Punto, Suzuki, FAP};
         fullReport(array);
 
