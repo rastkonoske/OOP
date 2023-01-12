@@ -30,11 +30,11 @@ abstract class Vehicle {
         carModel = scan.next();
         this.carModel = carModel;
 
-        System.out.println("Please, type the size of the engine. Size MUST be inserted as number value in cc!");
+        System.out.println("Please, type the size of the engine in cc. Size MUST be inserted as NUMBER value!");
         engineSize = scan.nextInt();
         this.engineSize = engineSize;
 
-        System.out.println("Please, type the horse powers of the engine");
+        System.out.println("Please, type the horse powers of the engine. Horse powers MUST be inserted as NUMBER value!");
         horsePowers = scan.nextInt();
         this.horsePowers = horsePowers;
 
@@ -47,7 +47,7 @@ abstract class Vehicle {
         }
         this.engineType = engineType;
 
-        System.out.println("Please, type the number of years passed since vehicle production");
+        System.out.println("Please, type the production year of the vehicle. Production year MUST be inserted as WHOLE NUMBER (without '.' or other characters)!");
         productionYear = scan.nextInt();
         this.productionYear = productionYear;
     }

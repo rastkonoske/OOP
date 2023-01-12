@@ -11,7 +11,7 @@ public class Main {
         System.out.println("Welcome to vehicle registration program");
         System.out.println("If you want to insert vehicle for report, please press 'y', then 'Enter'. If you want to generate report press any other button, then 'Enter'");
         String a = scan.next();
-        while (a == "y") {
+        while (a.equalsIgnoreCase("y")) {
             System.out.println("Please, choose the type of the vehicle. Press 1 for car, press 2 for motorcycle, press 3 for truck");
             switch (scan.nextInt()) {
                 case 1:
@@ -36,7 +36,7 @@ public class Main {
     }
 
 
-    public static void fullReport (ArrayList vehicles) {
+    public static void fullReport (ArrayList<Vehicle> vehicles) {
         int i=1;
         double totalAmount=0;
         System.out.println("All vehicles:");
