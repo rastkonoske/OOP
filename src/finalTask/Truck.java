@@ -29,12 +29,12 @@ public class Truck extends Vehicle{
 
     @Override
     void vehicleReport() {
-        System.out.println("Truck: " + getCarBrand());
+        System.out.println("Truck: " + getCarBrand() + " " + getCarModel());
         System.out.println("engine size: " + getEngineSize() + "cc");
         System.out.println("horse powers: " + getHorsePowers());
         System.out.println("engine type: " + getEngineType());
         System.out.println("number of trailers: " + getTrailerNumber());
         System.out.println("AMOUNT FOR REGISTRATION: " + getAmountRegistration());
-
+        System.out.println("---------------------------------------------------------------");
     }
 }

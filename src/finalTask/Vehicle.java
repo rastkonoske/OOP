@@ -6,18 +6,31 @@ abstract class Vehicle {
 
     Scanner scan = new Scanner(System.in);
     private String carBrand;
+    private String carModel;
     private int engineSize;
     private int horsePowers;
     private String engineType;
     public double amountRegistration;
-    private int yearsOld;
+    private int productionYear;
+
+    public String getCarModel() {
+        return carModel;
+    }
+
+    public void setCarModel(String carModel) {
+        this.carModel = carModel;
+    }
 
     public Vehicle () {
-        System.out.println("Please, type the vehicle Brand or Model");
+        System.out.println("Please, type the vehicle Brand");
         carBrand = scan.next();
         this.carBrand = carBrand;
 
-        System.out.println("Please, type the size of the engine");
+        System.out.println("Please, type the vehicle Model");
+        carModel = scan.next();
+        this.carModel = carModel;
+
+        System.out.println("Please, type the size of the engine. Size MUST be inserted as number value in cc!");
         engineSize = scan.nextInt();
         this.engineSize = engineSize;
 
@@ -28,15 +41,15 @@ abstract class Vehicle {
         System.out.println("Please, type the type of the engine (enter 'electric', 'diesel' or 'gasoline')");
         engineType = scan.next();
 
-        while (!engineType.equals("electric") && !engineType.equals("diesel") && !engineType.equals("gasoline")) {
+        while (!engineType.equalsIgnoreCase("electric") && !engineType.equalsIgnoreCase("diesel") && !engineType.equalsIgnoreCase("gasoline")) {
             System.out.println("Please, enter the valid type of engine - 'electric', 'diesel' or 'gasoline'");
             engineType = scan.next();
         }
         this.engineType = engineType;
 
         System.out.println("Please, type the number of years passed since vehicle production");
-        yearsOld = scan.nextInt();
-        this.yearsOld = yearsOld;
+        productionYear = scan.nextInt();
+        this.productionYear = productionYear;
     }
 
     public Scanner getScan() {
@@ -71,12 +84,12 @@ abstract class Vehicle {
         this.horsePowers = horsePowers;
     }
 
-    public int getYearsOld() {
-        return yearsOld;
+    public int getProductionYear() {
+        return productionYear;
     }
 
-    public void setYearsOld(int yearsOld) {
-        this.yearsOld = yearsOld;
+    public void setProductionYear(int yearsOld) {
+        this.productionYear = productionYear;
     }
 
     public String getEngineType() {
